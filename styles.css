@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    font-family: 'red hat display';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all__container {
+    background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-desktop.svg);
+    height: 800px;
+    width: 1200px;
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+#background {
+    background-image: rgb(240, 234, 234);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.order__summary {
+    font-weight: bolder;
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color:rgb(21, 21, 114);
+    font-weight:bolder;
+}
+
+
+span {
+    font-size: 16px;
+    color:rgb(21, 21, 114);
+    font-weight:bolder;
+}
+
+p{
+    color: hsl(228, 2%, 52%)
+}
+
+#parrafo {
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 120px;
+    padding-right: 90px;
+    text-align:unset;
+}
+
+.main__container {
+    background-color: hsl(240, 17%, 95%);
+    height: 120px;
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 520px;
+}
+
+.aside__mussic__note {
+    width: 120px;
+    padding: 40px;
+    display: inline-block;
+}
+
+.prices__container {
+    width: 120px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.aside__change {
+    width: 120px;
+    padding-left: 70px;
+    display: inline-block;
+}
+
+.buttons__container {
+    padding: 50px;
+}
+
+.buttons__container > .buttons__payment {
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    width: 300px;
+    padding: 10px;
+    border:none;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 10px 5px rgba(111, 108, 126, 0.5);
+}
+
+.buttons__container > .buttons__cancel {
+    background-color: white;
+    width: 300px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.buttons__container > .buttons__payment:hover {
+    background-color: hsl(225, 100%, 98%);
+    color:black;
+    cursor: pointer;
+}
+
+.buttons__container > .buttons__cancel:hover {
+    background-color: hsl(245, 75%, 52%);
+    color:white;
+    
+}
